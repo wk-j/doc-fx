@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyClient.H
+  commentId: T:MyClient.H
+  id: H
+  parent: MyClient
+  children:
+  - MyClient.H.A
+  langs:
+  - csharp
+  - vb
+  name: H
+  nameWithType: H
+  fullName: MyClient.H
+  type: Class
+  source:
+    remote:
+      path: src/MyClient/Hello.cs
+      branch: master
+      repo: https://github.com/wk-j/doc-fx.git
+    id: H
+    path: ../src/MyClient/Hello.cs
+    startLine: 5
+  assemblies:
+  - MyClient
+  namespace: MyClient
+  summary: "\nThis is H\n"
+  example: []
+  syntax:
+    content: 'public class H : object'
+    content.vb: >-
+      Public Class H
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: MyClient.H.A
+  commentId: M:MyClient.H.A
+  id: A
+  parent: MyClient.H
+  langs:
+  - csharp
+  - vb
+  name: A()
+  nameWithType: H.A()
+  fullName: MyClient.H.A()
+  type: Method
+  source:
+    remote:
+      path: src/MyClient/Hello.cs
+      branch: master
+      repo: https://github.com/wk-j/doc-fx.git
+    id: A
+    path: ../src/MyClient/Hello.cs
+    startLine: 10
+  assemblies:
+  - MyClient
+  namespace: MyClient
+  summary: "\nA hello\n"
+  example: []
+  syntax:
+    content: public void A()
+    content.vb: Public Sub A
+  overload: MyClient.H.A*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: MyClient
+  commentId: N:MyClient
+  name: MyClient
+  nameWithType: MyClient
+  fullName: MyClient
+- uid: MyClient.H.A*
+  commentId: Overload:MyClient.H.A
+  name: A
+  nameWithType: H.A
+  fullName: MyClient.H.A

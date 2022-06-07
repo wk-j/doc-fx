@@ -3,8 +3,9 @@
     {
       "src": [
         {
+          "cwd": "../",
           "files": [
-            "src/**.csproj"
+            "src/MyClient/MyClient.csproj"
           ]
         }
       ],
